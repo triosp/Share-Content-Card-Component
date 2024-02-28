@@ -6,11 +6,8 @@ Share Content Card Component
 **Challenge Description**
 In this frontend challenge, you'll build a Share Content Card Component. This challenge is perfect for you if you've been learning CSS and JavaScript and are looking to practice what you've learned by building something new and beginner-friendly.
 
-**Difficulty Level**
-Beginner
-
-**Tags**
-FRONTEND
+**Challenge Source**
+[FrontendPro](https://frontendpro.dev)
 
 **Learning**
 In this frontend challenge, you'll learn how to build interactive UI components using CSS and JavaScript. You will learn to use CSS flexbox or grid to create responsive UI components. Additionally, you will also learn to implement copy-to-clipboard functionality.

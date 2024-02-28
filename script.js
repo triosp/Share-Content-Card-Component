@@ -15,7 +15,7 @@ let link = [
 icon.forEach((items, index) => {
   items.addEventListener("click", function () {
     url.value = link[index];
-    window.open(link[index], "_blank");
+    // window.open(link[index], "_blank");
   });
 });
 

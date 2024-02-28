@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share Content Card Component - FrontendPro Challenge</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <div class="card">
+          <h1>Share this Challenge</h1>
+          <div class="social-media">
+            <button value="twitter" class="icon">
+              <i class="lni lni-twitter"></i></button
+            ><button value="linkedin" class="icon">
+              <i class="lni lni-linkedin-original"></i></button
+            ><button value="facebook" class="icon">
+              <i class="lni lni-facebook"></i></button
+            ><button value="instagram" class="icon">
+              <i class="lni lni-instagram"></i></button
+            ><button value="pinterest" class="icon">
+              <i class="lni lni-pinterest"></i></button
+            ><button value="telegram" class="icon">
+              <i class="lni lni-telegram-original"></i>
+            </button>
+          </div>
+          <p>or copy link</p>
+          <div class="link">
+            <input
+              type="text"
+              id="url"
+              readonly
+              value=""
+              placeholder="google.com"
+            />
+            <button id="btn">Copy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+body {
+  background-color: #dacdc9;
+  font-size: 16px;
+  color: #1e1411;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ede9e2;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px #1e1411;
+  max-width: 840px;
+}
+
+.card h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+.card .social-media {
+  margin: 10px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card .social-media .icon {
+  background-color: transparent;
+  border: none;
+  color: #1e1411;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.card .social-media .icon i {
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+.card .icon i:hover {
+  border: 1px solid #000;
+}
+
+.card p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.card .link {
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  margin-top: 10px;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.card .link #url {
+  background-color: #d9d9d9;
+  border: none;
+  color: #1e1411;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 12px;
+  width: 100%;
+  cursor: none;
+  padding-left: 10px;
+}
+.card .link #btn {
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  padding: 10px 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  .card .link {
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .card .link #btn {
+    background-color: #d9d9d9;
+    padding: 15px 25px;
+  }
+  .card .link #url {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
